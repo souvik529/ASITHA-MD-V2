@@ -15,7 +15,7 @@ AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "true" : process.env.ANTI_LINK,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
-ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
+ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "true" : process.env.ALLWAYS_OFFLINE,
 READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
